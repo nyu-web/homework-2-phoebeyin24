@@ -1,43 +1,49 @@
 header{
     margin-left:30px;
 }
+p, h1, h5, a{
+    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
 h1{
     color: mediumpurple;
     font-size:3em;
     letter-spacing:3px;
-    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
+
 h5{
     font-size:1em;
     color: whitesmoke;
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
+   
 p{
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-weight: bold;
     font-size:12px;
     color:darkblue;
 }
-.menu ul { list-style-type: none;
+.menu ul { 
+   list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-image:url("https://spectator.imgix.net/content/uploads/2017/10/parlymonet.jpg?auto=compress,enhance,format&crop=faces,entropy,edges&fit=crop&w=820&h=550");
     border-radius: 15px;
-
 }
-.asd {float: left;
+.asd {
+    float: left;
 }
-.asd a
-{
+.asd a{
     display: block;
     color: royalblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
-.asd a:hover {background-color: plum;}
+.asd a:hover 
+{
+    background-color: plum;
+}
 img {
     width: 400px;
     height:400px;
@@ -57,7 +63,6 @@ li {display: inline; float: left;}
     display: block;
     width: 100px;
     height: 100px;
-    -moz-border-radius: 50px;
     border-radius: 50px;
     border: 2px whitesmoke solid;
     background: lightskyblue;
@@ -69,7 +74,6 @@ li {display: inline; float: left;}
     line-height: 100px;
     margin-left:20px;
     margin-right:20px;
-    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     color:royalblue;
 }
 footer{
