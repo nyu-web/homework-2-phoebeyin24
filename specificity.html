@@ -1,8 +1,18 @@
-<!doctype html>
-<html lang='en-US'>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset='UTF-8'>
-  <meta name='viewport'
-        content='width=device-width, initial-scale=1.0'>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Specificity Elements</title>
+<link rel="stylesheet" href="specificity.css">
 </head>
 <body>
+   <!-- inline styling 1, 0, 0, 0 -->
+   <p>hydrogen</p><!--0, 0, 0, 1-->
+   <p class="class1">uranium</p><!--0, 0, 1, 0<-->
+   <p id="Li">lithium</p> <!--0, 1, 0, 0-->
+   <p id="O2" class="class1">oxygen</p> <!--0, 1, 1, 1-->
+   <p id="Al" class="class1">aluminum</p><!--0, 2, 1, 0-->
+   <p style="color: grey">carbon</p> <!--1, 0, 0, 0-->
+</body>
+</html>
